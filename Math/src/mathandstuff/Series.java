@@ -12,12 +12,12 @@ public interface Series {
 		int input = keyboard.nextInt();
 		System.out.println();
 		System.out.println("Your integer is " + input);
+		System.out.println();
 		
 		System.out.println("Enter an operation (\"Fibbonacci\", \"Prime\", or \"Square\")");
 		System.out.println();
 		String operationInput = operation.nextLine();
 		System.out.println();
-		System.out.println("Your operation is " + operation);
 		
 		int answer = getValues(input, operationInput);
 		System.out.println();
