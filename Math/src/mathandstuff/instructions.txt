@@ -1,0 +1,8 @@
+Change your Series class to instantiate concrete instance of the SeriesCalculator 
+interface based upon a user's choice.
+use the the method getSeries(int x) to return the array from the instance of the SeriesCaluclator 
+chosen by the user.
+
+
+Make Perfect Square and Prime implement the GetCaluculator interface.
+
